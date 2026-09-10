@@ -1,0 +1,1027 @@
+{
+  "exchange": {
+    "rmbPerEuro": 7.8159,
+    "date": "2026-09-09",
+    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+  },
+  "products": [
+    {
+      "id": "classic-30",
+      "name": "Classic 30",
+      "type": "Classic LED",
+      "category": "led",
+      "size": 30,
+      "priceRmb": 199.0,
+      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "30 × 30 × 2.5 cm"
+        ],
+        [
+          "Material",
+          "Acrylic panel + ABS back cover"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "Approx. 13 W"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Control",
+          "Pull-cord switch"
+        ],
+        [
+          "Operating modes",
+          "Steady on · layered animation flashing · full flashing · off"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Standard carton"
+        ],
+        [
+          "Single package size",
+          "34 × 33 × 6 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "0.85 kg"
+        ],
+        [
+          "Units per case",
+          "5"
+        ],
+        [
+          "Outer carton size",
+          "35.2 × 30.2 × 34 cm"
+        ],
+        [
+          "Outer carton weight",
+          "6 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-classic-30-001",
+          "image": "assets/VAL-classic-30-001.webp",
+          "thumbnail": "assets/VAL-classic-30-001-thumb.webp",
+          "width": 568,
+          "height": 558
+        },
+        {
+          "sku": "VAL-classic-30-002",
+          "image": "assets/VAL-classic-30-002.webp",
+          "thumbnail": "assets/VAL-classic-30-002-thumb.webp",
+          "width": 556,
+          "height": 562
+        },
+        {
+          "sku": "VAL-classic-30-003",
+          "image": "assets/VAL-classic-30-003.webp",
+          "thumbnail": "assets/VAL-classic-30-003-thumb.webp",
+          "width": 560,
+          "height": 560
+        },
+        {
+          "sku": "VAL-classic-30-004",
+          "image": "assets/VAL-classic-30-004.webp",
+          "thumbnail": "assets/VAL-classic-30-004-thumb.webp",
+          "width": 550,
+          "height": 550
+        },
+        {
+          "sku": "VAL-classic-30-005",
+          "image": "assets/VAL-classic-30-005.webp",
+          "thumbnail": "assets/VAL-classic-30-005-thumb.webp",
+          "width": 584,
+          "height": 554
+        },
+        {
+          "sku": "VAL-classic-30-006",
+          "image": "assets/VAL-classic-30-006.webp",
+          "thumbnail": "assets/VAL-classic-30-006-thumb.webp",
+          "width": 568,
+          "height": 576
+        },
+        {
+          "sku": "VAL-classic-30-007",
+          "image": "assets/VAL-classic-30-007.webp",
+          "thumbnail": "assets/VAL-classic-30-007-thumb.webp",
+          "width": 574,
+          "height": 574
+        },
+        {
+          "sku": "VAL-classic-30-008",
+          "image": "assets/VAL-classic-30-008.webp",
+          "thumbnail": "assets/VAL-classic-30-008-thumb.webp",
+          "width": 560,
+          "height": 566
+        },
+        {
+          "sku": "VAL-classic-30-009",
+          "image": "assets/VAL-classic-30-009.webp",
+          "thumbnail": "assets/VAL-classic-30-009-thumb.webp",
+          "width": 556,
+          "height": 560
+        },
+        {
+          "sku": "VAL-classic-30-010",
+          "image": "assets/VAL-classic-30-010.webp",
+          "thumbnail": "assets/VAL-classic-30-010-thumb.webp",
+          "width": 562,
+          "height": 570
+        }
+      ],
+      "video": "assets/classic-30-demo.mp4"
+    },
+    {
+      "id": "classic-35",
+      "name": "Classic 35",
+      "type": "Classic LED",
+      "category": "led",
+      "size": 35,
+      "priceRmb": 249.0,
+      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "35 × 35 × 2.5 cm"
+        ],
+        [
+          "Material",
+          "Acrylic panel + ABS back cover"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "Approx. 7.5 W"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Control",
+          "Pull-cord switch"
+        ],
+        [
+          "Operating modes",
+          "Steady on · layered animation flashing · full flashing · off"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Standard carton"
+        ],
+        [
+          "Single package size",
+          "39 × 38 × 7 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "1 kg"
+        ],
+        [
+          "Units per case",
+          "5"
+        ],
+        [
+          "Outer carton size",
+          "39.8 × 29 × 38.4 cm"
+        ],
+        [
+          "Outer carton weight",
+          "6 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-classic-35-001",
+          "image": "assets/VAL-classic-35-001.webp",
+          "thumbnail": "assets/VAL-classic-35-001-thumb.webp",
+          "width": 784,
+          "height": 768
+        },
+        {
+          "sku": "VAL-classic-35-002",
+          "image": "assets/VAL-classic-35-002.webp",
+          "thumbnail": "assets/VAL-classic-35-002-thumb.webp",
+          "width": 742,
+          "height": 734
+        },
+        {
+          "sku": "VAL-classic-35-003",
+          "image": "assets/VAL-classic-35-003.webp",
+          "thumbnail": "assets/VAL-classic-35-003-thumb.webp",
+          "width": 732,
+          "height": 760
+        },
+        {
+          "sku": "VAL-classic-35-004",
+          "image": "assets/VAL-classic-35-004.webp",
+          "thumbnail": "assets/VAL-classic-35-004-thumb.webp",
+          "width": 750,
+          "height": 756
+        },
+        {
+          "sku": "VAL-classic-35-005",
+          "image": "assets/VAL-classic-35-005.webp",
+          "thumbnail": "assets/VAL-classic-35-005-thumb.webp",
+          "width": 748,
+          "height": 740
+        },
+        {
+          "sku": "VAL-classic-35-006",
+          "image": "assets/VAL-classic-35-006.webp",
+          "thumbnail": "assets/VAL-classic-35-006-thumb.webp",
+          "width": 752,
+          "height": 758
+        },
+        {
+          "sku": "VAL-classic-35-007",
+          "image": "assets/VAL-classic-35-007.webp",
+          "thumbnail": "assets/VAL-classic-35-007-thumb.webp",
+          "width": 732,
+          "height": 724
+        },
+        {
+          "sku": "VAL-classic-35-008",
+          "image": "assets/VAL-classic-35-008.webp",
+          "thumbnail": "assets/VAL-classic-35-008-thumb.webp",
+          "width": 736,
+          "height": 746
+        }
+      ],
+      "video": "assets/classic-35-demo.mp4"
+    },
+    {
+      "id": "classic-48",
+      "name": "Classic 48",
+      "type": "Classic LED",
+      "category": "led",
+      "size": 48,
+      "priceRmb": 268.0,
+      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "48 × 48 × 2.5 cm"
+        ],
+        [
+          "Material",
+          "Acrylic panel + ABS back cover"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "Approx. 11 W"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Control",
+          "Pull-cord switch"
+        ],
+        [
+          "Operating modes",
+          "Steady on · layered animation flashing · full flashing · off"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Standard carton"
+        ],
+        [
+          "Single package size",
+          "52 × 49 × 7 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "1.7 kg"
+        ],
+        [
+          "Units per case",
+          "5"
+        ],
+        [
+          "Outer carton size",
+          "52 × 29.2 × 51.1 cm"
+        ],
+        [
+          "Outer carton weight",
+          "9 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-classic-48-001",
+          "image": "assets/VAL-classic-48-001.webp",
+          "thumbnail": "assets/VAL-classic-48-001-thumb.webp",
+          "width": 718,
+          "height": 734
+        },
+        {
+          "sku": "VAL-classic-48-002",
+          "image": "assets/VAL-classic-48-002.webp",
+          "thumbnail": "assets/VAL-classic-48-002-thumb.webp",
+          "width": 716,
+          "height": 690
+        },
+        {
+          "sku": "VAL-classic-48-003",
+          "image": "assets/VAL-classic-48-003.webp",
+          "thumbnail": "assets/VAL-classic-48-003-thumb.webp",
+          "width": 722,
+          "height": 734
+        },
+        {
+          "sku": "VAL-classic-48-004",
+          "image": "assets/VAL-classic-48-004.webp",
+          "thumbnail": "assets/VAL-classic-48-004-thumb.webp",
+          "width": 734,
+          "height": 738
+        },
+        {
+          "sku": "VAL-classic-48-005",
+          "image": "assets/VAL-classic-48-005.webp",
+          "thumbnail": "assets/VAL-classic-48-005-thumb.webp",
+          "width": 728,
+          "height": 734
+        },
+        {
+          "sku": "VAL-classic-48-006",
+          "image": "assets/VAL-classic-48-006.webp",
+          "thumbnail": "assets/VAL-classic-48-006-thumb.webp",
+          "width": 732,
+          "height": 706
+        },
+        {
+          "sku": "VAL-classic-48-007",
+          "image": "assets/VAL-classic-48-007.webp",
+          "thumbnail": "assets/VAL-classic-48-007-thumb.webp",
+          "width": 708,
+          "height": 692
+        },
+        {
+          "sku": "VAL-classic-48-008",
+          "image": "assets/VAL-classic-48-008.webp",
+          "thumbnail": "assets/VAL-classic-48-008-thumb.webp",
+          "width": 702,
+          "height": 676
+        },
+        {
+          "sku": "VAL-classic-48-009",
+          "image": "assets/VAL-classic-48-009.webp",
+          "thumbnail": "assets/VAL-classic-48-009-thumb.webp",
+          "width": 698,
+          "height": 678
+        },
+        {
+          "sku": "VAL-classic-48-010",
+          "image": "assets/VAL-classic-48-010.webp",
+          "thumbnail": "assets/VAL-classic-48-010-thumb.webp",
+          "width": 738,
+          "height": 736
+        },
+        {
+          "sku": "VAL-classic-48-011",
+          "image": "assets/VAL-classic-48-011.webp",
+          "thumbnail": "assets/VAL-classic-48-011-thumb.webp",
+          "width": 722,
+          "height": 738
+        },
+        {
+          "sku": "VAL-classic-48-013",
+          "image": "assets/VAL-classic-48-013.webp",
+          "thumbnail": "assets/VAL-classic-48-013-thumb.webp",
+          "width": 712,
+          "height": 720
+        },
+        {
+          "sku": "VAL-classic-48-014",
+          "image": "assets/VAL-classic-48-014.webp",
+          "thumbnail": "assets/VAL-classic-48-014-thumb.webp",
+          "width": 748,
+          "height": 714
+        },
+        {
+          "sku": "VAL-classic-48-016",
+          "image": "assets/VAL-classic-48-016.webp",
+          "thumbnail": "assets/VAL-classic-48-016-thumb.webp",
+          "width": 736,
+          "height": 758
+        },
+        {
+          "sku": "VAL-classic-48-017",
+          "image": "assets/VAL-classic-48-017.webp",
+          "thumbnail": "assets/VAL-classic-48-017-thumb.webp",
+          "width": 708,
+          "height": 712
+        }
+      ],
+      "video": null
+    },
+    {
+      "id": "script-48",
+      "name": "Script 48",
+      "type": "Lettering LED",
+      "category": "led",
+      "size": 48,
+      "priceRmb": 298.0,
+      "description": "A single-sided LED cross with illuminated lettering. Choose from the pictured messages and switch between steady light and animated flashing.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "48 × 48 × 2.5 cm"
+        ],
+        [
+          "Material",
+          "Acrylic panel + ABS back cover"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "Approx. 13 W"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Control",
+          "Pull-cord switch"
+        ],
+        [
+          "Operating modes",
+          "Steady on · layered animation flashing · full flashing · off"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Standard carton"
+        ],
+        [
+          "Single package size",
+          "52 × 49 × 7 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "1.7 kg"
+        ],
+        [
+          "Units per case",
+          "5"
+        ],
+        [
+          "Outer carton size",
+          "52 × 29.2 × 51.1 cm"
+        ],
+        [
+          "Outer carton weight",
+          "9.5 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-script-48-001",
+          "image": "assets/VAL-script-48-001.webp",
+          "thumbnail": "assets/VAL-script-48-001-thumb.webp",
+          "width": 776,
+          "height": 768
+        },
+        {
+          "sku": "VAL-script-48-002",
+          "image": "assets/VAL-script-48-002.webp",
+          "thumbnail": "assets/VAL-script-48-002-thumb.webp",
+          "width": 758,
+          "height": 790
+        },
+        {
+          "sku": "VAL-script-48-003",
+          "image": "assets/VAL-script-48-003.webp",
+          "thumbnail": "assets/VAL-script-48-003-thumb.webp",
+          "width": 772,
+          "height": 768
+        },
+        {
+          "sku": "VAL-script-48-004",
+          "image": "assets/VAL-script-48-004.webp",
+          "thumbnail": "assets/VAL-script-48-004-thumb.webp",
+          "width": 776,
+          "height": 764
+        },
+        {
+          "sku": "VAL-script-48-005",
+          "image": "assets/VAL-script-48-005.webp",
+          "thumbnail": "assets/VAL-script-48-005-thumb.webp",
+          "width": 752,
+          "height": 762
+        }
+      ],
+      "video": "assets/script-48-demo.mp4"
+    },
+    {
+      "id": "pcb-48",
+      "name": "Smart Display 48",
+      "type": "Wi-Fi LED",
+      "category": "led",
+      "size": 48,
+      "priceRmb": 650.0,
+      "description": "A programmable green LED cross with Wi-Fi control. Display the time, text and custom animations from a phone or computer.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "48 × 48 × 2.5 cm"
+        ],
+        [
+          "Material",
+          "PCB panel + ABS back cover"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 5 V output"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 120 cm"
+        ],
+        [
+          "LED colour",
+          "Single green · SMD"
+        ],
+        [
+          "Control",
+          "Wi-Fi via phone or computer"
+        ],
+        [
+          "Display content",
+          "Date, time, text, images, editable animations, video and GIF playback"
+        ],
+        [
+          "Optional functions",
+          "Temperature and humidity display on request"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter and hanging chain"
+        ],
+        [
+          "Packaging",
+          "Standard carton"
+        ],
+        [
+          "Single package size",
+          "52 × 49 × 7 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "1.7 kg"
+        ],
+        [
+          "Units per case",
+          "5"
+        ],
+        [
+          "Outer carton size",
+          "52 × 29.2 × 51.1 cm"
+        ],
+        [
+          "Outer carton weight",
+          "9 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-PCB-48-001",
+          "image": "assets/VAL-PCB-48-001.webp",
+          "thumbnail": "assets/VAL-PCB-48-001-thumb.webp",
+          "width": 960,
+          "height": 960
+        }
+      ],
+      "video": "assets/pcb-48-demo.mp4"
+    },
+    {
+      "id": "classic-60",
+      "name": "Classic 60",
+      "type": "Classic LED",
+      "category": "led",
+      "size": 60,
+      "priceRmb": 430.0,
+      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "60 × 60 × 2.5 cm"
+        ],
+        [
+          "Material",
+          "Acrylic panel + ABS back cover"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "Approx. 18 W"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Control",
+          "Pull-cord switch"
+        ],
+        [
+          "Operating modes",
+          "Steady on · layered animation flashing · full flashing · off"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Wooden case"
+        ],
+        [
+          "Single package size",
+          "63 × 64 × 7 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "3.5 kg"
+        ],
+        [
+          "Units per case",
+          "1"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-classic-60-001",
+          "image": "assets/VAL-classic-60-001.webp",
+          "thumbnail": "assets/VAL-classic-60-001-thumb.webp",
+          "width": 698,
+          "height": 722
+        },
+        {
+          "sku": "VAL-classic-60-002",
+          "image": "assets/VAL-classic-60-002.webp",
+          "thumbnail": "assets/VAL-classic-60-002-thumb.webp",
+          "width": 686,
+          "height": 722
+        },
+        {
+          "sku": "VAL-classic-60-003",
+          "image": "assets/VAL-classic-60-003.webp",
+          "thumbnail": "assets/VAL-classic-60-003-thumb.webp",
+          "width": 694,
+          "height": 718
+        },
+        {
+          "sku": "VAL-classic-60-004",
+          "image": "assets/VAL-classic-60-004.webp",
+          "thumbnail": "assets/VAL-classic-60-004-thumb.webp",
+          "width": 690,
+          "height": 716
+        },
+        {
+          "sku": "VAL-classic-60-005",
+          "image": "assets/VAL-classic-60-005.webp",
+          "thumbnail": "assets/VAL-classic-60-005-thumb.webp",
+          "width": 734,
+          "height": 740
+        },
+        {
+          "sku": "VAL-classic-60-006",
+          "image": "assets/VAL-classic-60-006.webp",
+          "thumbnail": "assets/VAL-classic-60-006-thumb.webp",
+          "width": 710,
+          "height": 702
+        },
+        {
+          "sku": "VAL-classic-60-007",
+          "image": "assets/VAL-classic-60-007.webp",
+          "thumbnail": "assets/VAL-classic-60-007-thumb.webp",
+          "width": 676,
+          "height": 708
+        }
+      ],
+      "video": null
+    },
+    {
+      "id": "neon-30",
+      "name": "Neon 30",
+      "type": "Neon",
+      "category": "neon",
+      "size": 30,
+      "priceRmb": 168.0,
+      "description": "A neon cross on clear acrylic with a continuous light outline. A slim, single-sided display for indoor use.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "30 × 30 × 1.4 cm"
+        ],
+        [
+          "Material",
+          "Clear acrylic + neon strip"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "19.01 W"
+        ],
+        [
+          "Current (supplier specification)",
+          "3 A"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Operating mode",
+          "Steady on"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Standard carton"
+        ],
+        [
+          "Single package size",
+          "34 × 33 × 6 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "0.85 kg"
+        ],
+        [
+          "Units per case",
+          "5"
+        ],
+        [
+          "Outer carton size",
+          "35.2 × 30.2 × 34 cm"
+        ],
+        [
+          "Outer carton weight",
+          "6 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-neon-30-001",
+          "image": "assets/VAL-neon-30-001.webp",
+          "thumbnail": "assets/VAL-neon-30-001-thumb.webp",
+          "width": 960,
+          "height": 960
+        }
+      ],
+      "video": "assets/neon-30-demo.mp4",
+      "leadTime": "Approx. 7 working days for orders of 1–10 neon products."
+    },
+    {
+      "id": "neon-48",
+      "name": "Neon 48",
+      "type": "Neon",
+      "category": "neon",
+      "size": 48,
+      "priceRmb": 269.0,
+      "description": "A neon cross on clear acrylic with a continuous light outline. A slim, single-sided display for indoor use.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "48 × 48 × 1.4 cm"
+        ],
+        [
+          "Material",
+          "Clear acrylic + neon strip"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "35 W"
+        ],
+        [
+          "Current (supplier specification)",
+          "5 A"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Operating mode",
+          "Steady on"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Standard carton"
+        ],
+        [
+          "Single package size",
+          "52 × 49 × 7 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "1.7 kg"
+        ],
+        [
+          "Units per case",
+          "5"
+        ],
+        [
+          "Outer carton size",
+          "52 × 29.2 × 51.1 cm"
+        ],
+        [
+          "Outer carton weight",
+          "9 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-neon-48-001",
+          "image": "assets/VAL-neon-48-001.webp",
+          "thumbnail": "assets/VAL-neon-48-001-thumb.webp",
+          "width": 924,
+          "height": 922
+        }
+      ],
+      "video": null,
+      "leadTime": "Approx. 7 working days for orders of 1–10 neon products."
+    },
+    {
+      "id": "neon-60",
+      "name": "Neon 60",
+      "type": "Neon",
+      "category": "neon",
+      "size": 60,
+      "priceRmb": 325.0,
+      "description": "A neon cross on clear acrylic with a continuous light outline. A slim, single-sided display for indoor use.",
+      "specs": [
+        [
+          "Display",
+          "Single-sided · indoor use"
+        ],
+        [
+          "Product size",
+          "60 × 60 × 1.4 cm"
+        ],
+        [
+          "Material",
+          "Clear acrylic + neon strip"
+        ],
+        [
+          "Power supply",
+          "AC 100–240 V input · DC 12 V output"
+        ],
+        [
+          "Power",
+          "47 W"
+        ],
+        [
+          "Current (supplier specification)",
+          "8 A"
+        ],
+        [
+          "Adapter cable",
+          "Approx. 150 cm"
+        ],
+        [
+          "Operating mode",
+          "Steady on"
+        ]
+      ],
+      "packing": [
+        [
+          "Included accessories",
+          "Power adapter, hanging chain and cotton thread"
+        ],
+        [
+          "Packaging",
+          "Wooden case"
+        ],
+        [
+          "Single package size",
+          "63 × 64 × 7 cm"
+        ],
+        [
+          "Weight per unit (as listed)",
+          "3.5 kg"
+        ],
+        [
+          "Units per case",
+          "1"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-neon-60-001",
+          "image": "assets/VAL-neon-60-001.webp",
+          "thumbnail": "assets/VAL-neon-60-001-thumb.webp",
+          "width": 1048,
+          "height": 1046
+        }
+      ],
+      "video": null,
+      "leadTime": "Approx. 7 working days for orders of 1–10 neon products."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102e26">
+  <meta name="description" content="Explore indoor LED and neon crosses, with product variants, SKU references, RMB and EUR prices, specifications, packaging and silent videos.">
+  <title>Petite Croix — Product catalogue</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalogue">Skip to catalogue</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Petite Croix home"><img src="favicon.svg" alt="" width="36" height="36"><span>PETITE CROIX</span></a>
+    <span class="edition">PRODUCT CATALOGUE <span class="edition-year">/ 2026</span></span>
+  </header>
+  <main id="top">
+    <div class="intro">
+      <div><p class="eyebrow"><span class="status-dot"></span> INDOOR SIGNAGE</p><h1>Find your cross.</h1><p class="intro-copy">LED & neon displays. Every design, in detail.</p></div>
+      <div class="catalogue-count" id="catalogue-count" aria-live="polite"><strong>9</strong><span>products<br><b>49</b> designs</span></div>
+    </div>
+    <nav class="collection-nav" aria-label="Catalogue collections"><a class="active" href="#led">LED collection <span>06</span></a><a href="#neon">Neon collection <span>03</span></a><a class="price-nav" href="#prices">About prices <span aria-hidden="true">↗</span></a></nav>
+    <div id="catalogue" aria-live="polite"><p class="loading">Loading the catalogue…</p></div>
+    <section id="prices" class="price-note">
+      <div><p class="eyebrow">PRICE INFORMATION</p><h2>A clear view of the price.</h2></div>
+      <div><p>Prices are shown per unit in RMB, on an <strong>EXW (ex-works)</strong> basis. EUR amounts are indicative conversions, excluding tax, shipping, customs duties and bank fees.</p><p class="rate-line" id="rate-note">EUR = RMB ÷ 7.8159 · ECB reference rate, 9 September 2026.</p><p class="fine-print">Packaging sizes and weights are approximate supplier figures. Confirm final specifications and prices before ordering.</p></div>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="#top">PETITE CROIX <span aria-hidden="true">↗</span></a><span>Indoor LED & neon collection</span></footer>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-header"><div><p id="viewer-product"></p><h2 id="viewer-title"></h2></div><button type="button" class="icon-button close-viewer" aria-label="Close full-screen photo">✕</button></div>
+    <div class="viewer-stage"><button type="button" class="icon-button viewer-prev" aria-label="Previous design">←</button><img id="viewer-image" alt=""><button type="button" class="icon-button viewer-next" aria-label="Next design">→</button></div>
+    <div class="viewer-bottom"><span id="viewer-position"></span><span id="viewer-price"></span></div>
+  </dialog>
+  <noscript><p class="no-script">Enable JavaScript to browse the interactive catalogue. Product details are also available in <a href="catalogue.json">the catalogue data file</a>.</p></noscript>
+</body>
+</html>
