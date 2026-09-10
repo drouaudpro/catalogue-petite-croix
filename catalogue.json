@@ -1,9 +1,4 @@
 {
-  "exchange": {
-    "rmbPerEuro": 7.8159,
-    "date": "2026-09-09",
-    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-  },
   "products": [
     {
       "id": "classic-30",
@@ -11,7 +6,6 @@
       "type": "LED classique",
       "category": "led",
       "size": 30,
-      "priceRmb": 199.0,
       "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
@@ -63,10 +57,6 @@
         [
           "Poids par unité indiqué",
           "0,85 kg"
-        ],
-        [
-          "Unités par carton ou caisse",
-          "5"
         ],
         [
           "Dimensions du carton complet",
@@ -157,7 +147,6 @@
       "type": "LED classique",
       "category": "led",
       "size": 35,
-      "priceRmb": 249.0,
       "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
@@ -209,10 +198,6 @@
         [
           "Poids par unité indiqué",
           "1 kg"
-        ],
-        [
-          "Unités par carton ou caisse",
-          "5"
         ],
         [
           "Dimensions du carton complet",
@@ -289,7 +274,6 @@
       "type": "LED classique",
       "category": "led",
       "size": 48,
-      "priceRmb": 268.0,
       "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
@@ -341,10 +325,6 @@
         [
           "Poids par unité indiqué",
           "1,7 kg"
-        ],
-        [
-          "Unités par carton ou caisse",
-          "5"
         ],
         [
           "Dimensions du carton complet",
@@ -470,7 +450,6 @@
       "type": "LED avec texte",
       "category": "led",
       "size": 48,
-      "priceRmb": 298.0,
       "description": "Croix LED avec texte lumineux sur une face. Plusieurs inscriptions au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
@@ -522,10 +501,6 @@
         [
           "Poids par unité indiqué",
           "1,7 kg"
-        ],
-        [
-          "Unités par carton ou caisse",
-          "5"
         ],
         [
           "Dimensions du carton complet",
@@ -581,7 +556,6 @@
       "type": "LED Wi-Fi",
       "category": "led",
       "size": 48,
-      "priceRmb": 650.0,
       "description": "Croix LED verte programmable en Wi-Fi. Affichez l’heure, des textes et des animations personnalisées depuis un téléphone ou un ordinateur.",
       "specs": [
         [
@@ -639,10 +613,6 @@
           "1,7 kg"
         ],
         [
-          "Unités par carton ou caisse",
-          "5"
-        ],
-        [
           "Dimensions du carton complet",
           "52 × 29,2 × 51,1 cm"
         ],
@@ -668,7 +638,6 @@
       "type": "LED classique",
       "category": "led",
       "size": 60,
-      "priceRmb": 430.0,
       "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
@@ -720,10 +689,6 @@
         [
           "Poids par unité indiqué",
           "3,5 kg"
-        ],
-        [
-          "Unités par carton ou caisse",
-          "1"
         ]
       ],
       "variants": [
@@ -785,7 +750,6 @@
       "type": "Néon",
       "category": "neon",
       "size": 30,
-      "priceRmb": 168.0,
       "description": "Croix néon sur acrylique transparent, avec un tracé lumineux continu. Affichage sur une face, pour un usage intérieur.",
       "specs": [
         [
@@ -839,10 +803,6 @@
           "0,85 kg"
         ],
         [
-          "Unités par carton ou caisse",
-          "5"
-        ],
-        [
           "Dimensions du carton complet",
           "35,2 × 30,2 × 34 cm"
         ],
@@ -869,7 +829,6 @@
       "type": "Néon",
       "category": "neon",
       "size": 48,
-      "priceRmb": 269.0,
       "description": "Croix néon sur acrylique transparent, avec un tracé lumineux continu. Affichage sur une face, pour un usage intérieur.",
       "specs": [
         [
@@ -923,10 +882,6 @@
           "1,7 kg"
         ],
         [
-          "Unités par carton ou caisse",
-          "5"
-        ],
-        [
           "Dimensions du carton complet",
           "52 × 29,2 × 51,1 cm"
         ],
@@ -953,7 +908,6 @@
       "type": "Néon",
       "category": "neon",
       "size": 60,
-      "priceRmb": 325.0,
       "description": "Croix néon sur acrylique transparent, avec un tracé lumineux continu. Affichage sur une face, pour un usage intérieur.",
       "specs": [
         [
@@ -1005,10 +959,6 @@
         [
           "Poids par unité indiqué",
           "3,5 kg"
-        ],
-        [
-          "Unités par carton ou caisse",
-          "1"
         ]
       ],
       "variants": [

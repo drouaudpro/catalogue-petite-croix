@@ -7,14 +7,12 @@
   const root = document.querySelector('#catalogue');
   const viewer = document.querySelector('#viewer');
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const euro = price => new Intl.NumberFormat('fr-FR', {style:'currency', currency:'EUR'}).format(price / catalogue.exchange.rmbPerEuro);
-  const rmb = price => new Intl.NumberFormat('fr-FR', {maximumFractionDigits:2}).format(price);
   const specs = rows => `<dl class="spec-list">${rows.map(([label, value]) => `<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl>`;
 
   function productCard(product, position) {
     const first = product.variants[0];
     return `<article class="product-card" id="${product.id}" aria-labelledby="title-${product.id}">
-      <div class="card-top"><div><h3 id="title-${product.id}">${escape(product.name)}</h3><span class="dimensions">${product.size} × ${product.size} cm</span></div><div class="header-price"><span class="price-rmb">${rmb(product.priceRmb)}<small>RMB</small></span><span class="price-eur">≈ ${euro(product.priceRmb)}</span><span class="price-label">EXW · par unité</span></div></div>
+      <div class="card-top"><h3 id="title-${product.id}">${escape(product.name)}</h3><span class="dimensions">${product.size} × ${product.size} cm</span></div>
       <div class="gallery" data-product="${product.id}">
         <button type="button" class="photo-open" aria-label="Agrandir ${escape(first.sku)}"><img class="main-photo" src="${first.image}" alt="${escape(product.name)} — ${escape(first.sku)}" width="${first.width}" height="${first.height}" ${position<2?'fetchpriority="high"':'loading="lazy"'} decoding="async"></button>
         <span class="image-counter">1 / ${product.variants.length}</span><span class="expand-indicator" aria-hidden="true">⤢</span>
@@ -65,7 +63,6 @@
     img.src = variant.image;
     img.alt = `${product.name} — ${variant.sku}`;
     document.querySelector('#viewer-position').textContent = `Déclinaison ${index + 1} / ${product.variants.length}`;
-    document.querySelector('#viewer-price').textContent = `${rmb(product.priceRmb)} RMB ≈ ${euro(product.priceRmb)}`;
     viewer.querySelectorAll('.viewer-prev,.viewer-next').forEach(b => b.hidden = product.variants.length === 1);
   }
 
@@ -120,14 +117,14 @@
     const lifecycle = new AbortController();
     const tool={
       name:'read_catalogue_products',title:'Read catalogue products',
-      description:'Read product specifications, packaging, variant SKUs and unit prices from this catalogue. Optionally match one or more exact SKUs.',
+      description:'Read product specifications, packaging and variant SKUs from this catalogue. Optionally match one or more exact SKUs.',
       inputSchema:{type:'object',properties:{skus:{type:'array',items:{type:'string'}}},additionalProperties:false},
       annotations:{readOnlyHint:true,untrustedContentHint:false},
       execute(input) {
         if (!input || typeof input!=='object' || Array.isArray(input) || Object.keys(input).some(k=>k!=='skus') || (input.skus!==undefined && (!Array.isArray(input.skus)||input.skus.some(s=>typeof s!=='string')))) throw new Error('Expected an object with an optional array of SKU strings.');
         const allSkus=new Set(catalogue.products.flatMap(p=>p.variants.map(v=>v.sku)));
         if (input.skus?.some(s=>!allSkus.has(s))) throw new Error('Unknown SKU. Use the exact reference shown in the catalogue.');
-        return {exchange:catalogue.exchange,products:catalogue.products.filter(p=>!input.skus?.length||p.variants.some(v=>input.skus.includes(v.sku))).map(p=>({name:p.name,sizeCm:p.size,priceRmb:p.priceRmb,priceEur:Number((p.priceRmb/catalogue.exchange.rmbPerEuro).toFixed(2)),priceBasis:'EXW per unit, excluding tax and shipping',description:p.description,specifications:p.specs,packing:p.packing,skus:p.variants.filter(v=>!input.skus?.length||input.skus.includes(v.sku)).map(v=>v.sku)}))};
+        return {products:catalogue.products.filter(p=>!input.skus?.length||p.variants.some(v=>input.skus.includes(v.sku))).map(p=>({name:p.name,sizeCm:p.size,description:p.description,specifications:p.specs,packing:p.packing,skus:p.variants.filter(v=>!input.skus?.length||input.skus.includes(v.sku)).map(v=>v.sku)}))};
       }
     };
     try {Promise.resolve(document.modelContext.registerTool(tool,{signal:lifecycle.signal})).catch(()=>{});} catch {}
