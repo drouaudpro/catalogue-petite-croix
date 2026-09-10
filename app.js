@@ -7,28 +7,25 @@
   const root = document.querySelector('#catalogue');
   const viewer = document.querySelector('#viewer');
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const euro = price => new Intl.NumberFormat('en-IE', {style:'currency', currency:'EUR'}).format(price / catalogue.exchange.rmbPerEuro);
-  const rmb = price => new Intl.NumberFormat('en-GB', {maximumFractionDigits:2}).format(price);
+  const euro = price => new Intl.NumberFormat('fr-FR', {style:'currency', currency:'EUR'}).format(price / catalogue.exchange.rmbPerEuro);
+  const rmb = price => new Intl.NumberFormat('fr-FR', {maximumFractionDigits:2}).format(price);
   const specs = rows => `<dl class="spec-list">${rows.map(([label, value]) => `<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl>`;
 
   function productCard(product, position) {
     const first = product.variants[0];
     return `<article class="product-card" id="${product.id}" aria-labelledby="title-${product.id}">
-      <div class="card-top"><div><p class="product-kind">${escape(product.type)}</p><h3 id="title-${product.id}">${escape(product.name)}</h3></div><span class="size-tag">${product.size} × ${product.size} cm</span></div>
+      <div class="card-top"><div><h3 id="title-${product.id}">${escape(product.name)}</h3><span class="dimensions">${product.size} × ${product.size} cm</span></div><div class="header-price"><span class="price-rmb">${rmb(product.priceRmb)}<small>RMB</small></span><span class="price-eur">≈ ${euro(product.priceRmb)}</span><span class="price-label">EXW · par unité</span></div></div>
       <div class="gallery" data-product="${product.id}">
-        <button type="button" class="photo-open" aria-label="Enlarge ${escape(first.sku)}"><img class="main-photo" src="${first.image}" alt="${escape(product.name)} — ${escape(first.sku)}" width="${first.width}" height="${first.height}" ${position<2?'fetchpriority="high"':'loading="lazy"'} decoding="async"></button>
+        <button type="button" class="photo-open" aria-label="Agrandir ${escape(first.sku)}"><img class="main-photo" src="${first.image}" alt="${escape(product.name)} — ${escape(first.sku)}" width="${first.width}" height="${first.height}" ${position<2?'fetchpriority="high"':'loading="lazy"'} decoding="async"></button>
         <span class="image-counter">1 / ${product.variants.length}</span><span class="expand-indicator" aria-hidden="true">⤢</span>
-        ${product.variants.length>1?'<button type="button" class="gallery-arrow prev" aria-label="Previous design">←</button><button type="button" class="gallery-arrow next" aria-label="Next design">→</button>':''}
+        ${product.variants.length>1?'<button type="button" class="gallery-arrow prev" aria-label="Déclinaison précédente">←</button><button type="button" class="gallery-arrow next" aria-label="Déclinaison suivante">→</button>':''}
       </div>
-      <div class="thumbs" role="group" aria-label="${escape(product.name)} designs">${product.variants.map((variant,index)=>`<button type="button" class="thumbnail" data-index="${index}" aria-pressed="${index===0}" aria-label="Select ${escape(variant.sku)}" title="${escape(variant.sku)}"><img src="${variant.thumbnail}" width="48" height="48" alt="" loading="lazy" decoding="async"></button>`).join('')}</div>
-      <div class="sku-row"><code class="current-sku" aria-live="polite">${escape(first.sku)}</code><button type="button" class="copy-sku" aria-label="Copy SKU ${escape(first.sku)}"><span aria-hidden="true">▣</span> Copy SKU</button></div>
+      <div class="thumbs" role="group" aria-label="${escape(product.name)} — déclinaisons">${product.variants.map((variant,index)=>`<button type="button" class="thumbnail" data-index="${index}" aria-pressed="${index===0}" aria-label="Choisir ${escape(variant.sku)}" title="${escape(variant.sku)}"><img src="${variant.thumbnail}" width="48" height="48" alt="" loading="lazy" decoding="async"></button>`).join('')}</div>
+      <div class="sku-row"><code class="current-sku" aria-live="polite">${escape(first.sku)}</code><button type="button" class="copy-sku" aria-label="Copier le SKU ${escape(first.sku)}"><span aria-hidden="true">▣</span> Copier le SKU</button></div>
       <div class="card-body">
-        <div class="price-row"><div><span class="price-rmb">${rmb(product.priceRmb)}<small>RMB</small></span><span class="price-label">EXW · per unit</span></div><div class="eur-group"><span class="price-eur">≈ ${euro(product.priceRmb)}</span><span class="price-label">EUR · indicative</span></div></div>
-        <p class="description">${escape(product.description)}</p>
-        <details class="card-detail"><summary>Product specifications</summary>${specs(product.specs)}</details>
-        <details class="card-detail"><summary>Packaging & accessories</summary>${specs(product.packing)}</details>
-        ${product.video?`<details class="card-detail video-detail"><summary><span class="play-icon" aria-hidden="true">▶</span> Watch product video <span class="silent-label">No audio</span></summary><video controls muted playsinline preload="none" poster="${first.image}" data-src="${product.video}" aria-label="${escape(product.name)} product demonstration, no audio"></video></details>`:''}
-        ${product.leadTime?`<p class="lead-time">${escape(product.leadTime)}</p>`:''}
+        <details class="card-detail"><summary>Description et caractéristiques</summary><p class="description">${escape(product.description)}</p>${specs(product.specs)}</details>
+        <details class="card-detail"><summary>Emballage et accessoires</summary>${specs(product.packing)}</details>
+        ${product.video?`<details class="card-detail video-detail"><summary><span class="play-icon" aria-hidden="true">▶</span> Voir la vidéo</summary><video controls muted playsinline preload="none" poster="${first.image}" data-src="${product.video}" aria-label="${escape(product.name)} en vidéo"></video></details>`:''}
       </div>
     </article>`;
   }
@@ -43,9 +40,9 @@
     img.alt = `${product.name} — ${variant.sku}`;
     img.width = variant.width;
     img.height = variant.height;
-    card.querySelector('.photo-open').setAttribute('aria-label', `Enlarge ${variant.sku}`);
+    card.querySelector('.photo-open').setAttribute('aria-label', `Agrandir ${variant.sku}`);
     card.querySelector('.current-sku').textContent = variant.sku;
-    card.querySelector('.copy-sku').setAttribute('aria-label', `Copy SKU ${variant.sku}`);
+    card.querySelector('.copy-sku').setAttribute('aria-label', `Copier le SKU ${variant.sku}`);
     card.querySelector('.image-counter').textContent = `${next + 1} / ${product.variants.length}`;
     const buttons = card.querySelectorAll('.thumbnail');
     buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === next)));
@@ -67,7 +64,7 @@
     const img = document.querySelector('#viewer-image');
     img.src = variant.image;
     img.alt = `${product.name} — ${variant.sku}`;
-    document.querySelector('#viewer-position').textContent = `Design ${index + 1} of ${product.variants.length}`;
+    document.querySelector('#viewer-position').textContent = `Déclinaison ${index + 1} / ${product.variants.length}`;
     document.querySelector('#viewer-price').textContent = `${rmb(product.priceRmb)} RMB ≈ ${euro(product.priceRmb)}`;
     viewer.querySelectorAll('.viewer-prev,.viewer-next').forEach(b => b.hidden = product.variants.length === 1);
   }
@@ -101,9 +98,9 @@
     card.querySelector('.copy-sku').addEventListener('click', async event => {
       const button=event.currentTarget;
       const sku=product.variants[selected.get(product.id)].sku;
-      try {await navigator.clipboard.writeText(sku);button.textContent='Copied ✓';}
-      catch {button.textContent='Select SKU to copy';}
-      setTimeout(()=>{button.innerHTML='<span aria-hidden="true">▣</span> Copy SKU';},2000);
+      try {await navigator.clipboard.writeText(sku);button.textContent='Copié ✓';}
+      catch {button.textContent='Sélectionnez le SKU';}
+      setTimeout(()=>{button.innerHTML='<span aria-hidden="true">▣</span> Copier le SKU';},2000);
     });
     const video = card.querySelector('video');
     if (video) {
@@ -140,16 +137,13 @@
   async function init() {
     try {
       const response=await fetch('catalogue.json');
-      if(!response.ok)throw new Error('Catalogue unavailable');
+      if(!response.ok)throw new Error('Catalogue indisponible');
       catalogue=await response.json();
       let position=0;
       root.innerHTML=['led','neon'].map(category=>{
         const products=catalogue.products.filter(p=>p.category===category);
-        return `<section id="${category}" class="collection ${category==='neon'?'neon-collection':''}" aria-labelledby="heading-${category}"><div class="section-heading"><h2 id="heading-${category}"><span class="section-index">${category==='led'?'01':'02'}</span>${category==='led'?'LED collection':'Neon collection'}</h2><p>${category==='led'?'Classic, lettering & Wi-Fi':'Continuous neon light'}<br>${products.length} products · by size</p></div><div class="products">${products.map(p=>productCard(p,position++)).join('')}</div></section>`;
+        return `<section id="${category}" class="collection ${category==='neon'?'neon-collection':''}" aria-labelledby="heading-${category}"><div class="section-heading"><h2 id="heading-${category}">${category==='led'?'Croix LED':'Croix néon'}</h2><p>${products.length} produits · par taille</p></div><div class="products">${products.map(p=>productCard(p,position++)).join('')}</div></section>`;
       }).join('');
-      document.querySelector('#catalogue-count').innerHTML=`<strong>${catalogue.products.length}</strong><span>products<br><b>${catalogue.products.reduce((n,p)=>n+p.variants.length,0)}</b> designs</span>`;
-      const rateDate=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(catalogue.exchange.date+'T12:00:00Z'));
-      document.querySelector('#rate-note').innerHTML=`EUR = RMB ÷ ${catalogue.exchange.rmbPerEuro} · <a href="${catalogue.exchange.source}" target="_blank" rel="noopener noreferrer">ECB reference rate, ${rateDate}</a>.`;
       catalogue.products.forEach(bindProduct);
       viewer.querySelector('.close-viewer').addEventListener('click',()=>viewer.close());
       viewer.addEventListener('close',()=>{document.body.classList.remove('scroll-locked');opener?.focus({preventScroll:true});lightbox=null;});
@@ -160,12 +154,12 @@
       document.querySelectorAll('.collection-nav a').forEach(link=>link.addEventListener('click',()=>{document.querySelectorAll('.collection-nav a').forEach(a=>a.classList.toggle('active',a===link));}));
       if ('IntersectionObserver' in window) {
         const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){document.querySelectorAll('.collection-nav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}});},{rootMargin:'-15% 0px -70% 0px',threshold:0});
-        ['led','neon','prices'].forEach(id=>observer.observe(document.getElementById(id)));
+        ['led','neon'].forEach(id=>observer.observe(document.getElementById(id)));
       }
       if(location.hash)requestAnimationFrame(()=>document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView());
       registerProductTool();
     } catch(error) {
-      root.innerHTML='<p class="load-error">The catalogue could not be loaded. Please check your connection and <a href="">reload the page</a>.</p>';
+      root.innerHTML='<p class="load-error">Impossible de charger les produits. Vérifiez votre connexion et <a href="">rechargez la page</a>.</p>';
       console.error(error);
     }
   }

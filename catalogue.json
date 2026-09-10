@@ -7,73 +7,73 @@
   "products": [
     {
       "id": "classic-30",
-      "name": "Classic 30",
-      "type": "Classic LED",
+      "name": "Classique 30",
+      "type": "LED classique",
       "category": "led",
       "size": 30,
       "priceRmb": 199.0,
-      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "30 × 30 × 2.5 cm"
+          "Dimensions du produit",
+          "30 × 30 × 2,5 cm"
         ],
         [
-          "Material",
-          "Acrylic panel + ABS back cover"
+          "Matériaux",
+          "Panneau acrylique + coque arrière en ABS"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
-          "Approx. 13 W"
+          "Puissance",
+          "Environ 13 W"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Control",
-          "Pull-cord switch"
+          "Commande",
+          "Interrupteur à tirette"
         ],
         [
-          "Operating modes",
-          "Steady on · layered animation flashing · full flashing · off"
+          "Modes de fonctionnement",
+          "Allumage fixe · animation par zones · clignotement complet · arrêt"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Standard carton"
+          "Emballage",
+          "Carton standard"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "34 × 33 × 6 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "0.85 kg"
+          "Poids par unité indiqué",
+          "0,85 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "5"
         ],
         [
-          "Outer carton size",
-          "35.2 × 30.2 × 34 cm"
+          "Dimensions du carton complet",
+          "35,2 × 30,2 × 34 cm"
         ],
         [
-          "Outer carton weight",
+          "Poids du carton complet",
           "6 kg"
         ]
       ],
@@ -153,73 +153,73 @@
     },
     {
       "id": "classic-35",
-      "name": "Classic 35",
-      "type": "Classic LED",
+      "name": "Classique 35",
+      "type": "LED classique",
       "category": "led",
       "size": 35,
       "priceRmb": 249.0,
-      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "35 × 35 × 2.5 cm"
+          "Dimensions du produit",
+          "35 × 35 × 2,5 cm"
         ],
         [
-          "Material",
-          "Acrylic panel + ABS back cover"
+          "Matériaux",
+          "Panneau acrylique + coque arrière en ABS"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
-          "Approx. 7.5 W"
+          "Puissance",
+          "Environ 7,5 W"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Control",
-          "Pull-cord switch"
+          "Commande",
+          "Interrupteur à tirette"
         ],
         [
-          "Operating modes",
-          "Steady on · layered animation flashing · full flashing · off"
+          "Modes de fonctionnement",
+          "Allumage fixe · animation par zones · clignotement complet · arrêt"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Standard carton"
+          "Emballage",
+          "Carton standard"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "39 × 38 × 7 cm"
         ],
         [
-          "Weight per unit (as listed)",
+          "Poids par unité indiqué",
           "1 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "5"
         ],
         [
-          "Outer carton size",
-          "39.8 × 29 × 38.4 cm"
+          "Dimensions du carton complet",
+          "39,8 × 29 × 38,4 cm"
         ],
         [
-          "Outer carton weight",
+          "Poids du carton complet",
           "6 kg"
         ]
       ],
@@ -285,73 +285,73 @@
     },
     {
       "id": "classic-48",
-      "name": "Classic 48",
-      "type": "Classic LED",
+      "name": "Classique 48",
+      "type": "LED classique",
       "category": "led",
       "size": 48,
       "priceRmb": 268.0,
-      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "48 × 48 × 2.5 cm"
+          "Dimensions du produit",
+          "48 × 48 × 2,5 cm"
         ],
         [
-          "Material",
-          "Acrylic panel + ABS back cover"
+          "Matériaux",
+          "Panneau acrylique + coque arrière en ABS"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
-          "Approx. 11 W"
+          "Puissance",
+          "Environ 11 W"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Control",
-          "Pull-cord switch"
+          "Commande",
+          "Interrupteur à tirette"
         ],
         [
-          "Operating modes",
-          "Steady on · layered animation flashing · full flashing · off"
+          "Modes de fonctionnement",
+          "Allumage fixe · animation par zones · clignotement complet · arrêt"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Standard carton"
+          "Emballage",
+          "Carton standard"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "52 × 49 × 7 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "1.7 kg"
+          "Poids par unité indiqué",
+          "1,7 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "5"
         ],
         [
-          "Outer carton size",
-          "52 × 29.2 × 51.1 cm"
+          "Dimensions du carton complet",
+          "52 × 29,2 × 51,1 cm"
         ],
         [
-          "Outer carton weight",
+          "Poids du carton complet",
           "9 kg"
         ]
       ],
@@ -467,73 +467,73 @@
     {
       "id": "script-48",
       "name": "Script 48",
-      "type": "Lettering LED",
+      "type": "LED avec texte",
       "category": "led",
       "size": 48,
       "priceRmb": 298.0,
-      "description": "A single-sided LED cross with illuminated lettering. Choose from the pictured messages and switch between steady light and animated flashing.",
+      "description": "Croix LED avec texte lumineux sur une face. Plusieurs inscriptions au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "48 × 48 × 2.5 cm"
+          "Dimensions du produit",
+          "48 × 48 × 2,5 cm"
         ],
         [
-          "Material",
-          "Acrylic panel + ABS back cover"
+          "Matériaux",
+          "Panneau acrylique + coque arrière en ABS"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
-          "Approx. 13 W"
+          "Puissance",
+          "Environ 13 W"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Control",
-          "Pull-cord switch"
+          "Commande",
+          "Interrupteur à tirette"
         ],
         [
-          "Operating modes",
-          "Steady on · layered animation flashing · full flashing · off"
+          "Modes de fonctionnement",
+          "Allumage fixe · animation par zones · clignotement complet · arrêt"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Standard carton"
+          "Emballage",
+          "Carton standard"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "52 × 49 × 7 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "1.7 kg"
+          "Poids par unité indiqué",
+          "1,7 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "5"
         ],
         [
-          "Outer carton size",
-          "52 × 29.2 × 51.1 cm"
+          "Dimensions du carton complet",
+          "52 × 29,2 × 51,1 cm"
         ],
         [
-          "Outer carton weight",
-          "9.5 kg"
+          "Poids du carton complet",
+          "9,5 kg"
         ]
       ],
       "variants": [
@@ -577,77 +577,77 @@
     },
     {
       "id": "pcb-48",
-      "name": "Smart Display 48",
-      "type": "Wi-Fi LED",
+      "name": "Connectée 48",
+      "type": "LED Wi-Fi",
       "category": "led",
       "size": 48,
       "priceRmb": 650.0,
-      "description": "A programmable green LED cross with Wi-Fi control. Display the time, text and custom animations from a phone or computer.",
+      "description": "Croix LED verte programmable en Wi-Fi. Affichez l’heure, des textes et des animations personnalisées depuis un téléphone ou un ordinateur.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "48 × 48 × 2.5 cm"
+          "Dimensions du produit",
+          "48 × 48 × 2,5 cm"
         ],
         [
-          "Material",
-          "PCB panel + ABS back cover"
+          "Matériaux",
+          "Panneau PCB + coque arrière en ABS"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 5 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 5 V CC"
         ],
         [
-          "Adapter cable",
-          "Approx. 120 cm"
+          "Câble de l’adaptateur",
+          "Environ 120 cm"
         ],
         [
-          "LED colour",
-          "Single green · SMD"
+          "Couleur des LED",
+          "Vert monochrome · SMD"
         ],
         [
-          "Control",
-          "Wi-Fi via phone or computer"
+          "Commande",
+          "Wi-Fi depuis un téléphone ou un ordinateur"
         ],
         [
-          "Display content",
-          "Date, time, text, images, editable animations, video and GIF playback"
+          "Contenu affichable",
+          "Date, heure, textes, images, animations personnalisables, vidéos et GIF"
         ],
         [
-          "Optional functions",
-          "Temperature and humidity display on request"
+          "Fonctions en option",
+          "Affichage de la température et de l’humidité sur demande"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter and hanging chain"
+          "Accessoires inclus",
+          "Adaptateur secteur et chaîne de suspension"
         ],
         [
-          "Packaging",
-          "Standard carton"
+          "Emballage",
+          "Carton standard"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "52 × 49 × 7 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "1.7 kg"
+          "Poids par unité indiqué",
+          "1,7 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "5"
         ],
         [
-          "Outer carton size",
-          "52 × 29.2 × 51.1 cm"
+          "Dimensions du carton complet",
+          "52 × 29,2 × 51,1 cm"
         ],
         [
-          "Outer carton weight",
+          "Poids du carton complet",
           "9 kg"
         ]
       ],
@@ -664,65 +664,65 @@
     },
     {
       "id": "classic-60",
-      "name": "Classic 60",
-      "type": "Classic LED",
+      "name": "Classique 60",
+      "type": "LED classique",
       "category": "led",
       "size": 60,
       "priceRmb": 430.0,
-      "description": "A single-sided LED cross with an acrylic face and ABS back cover. Choose a light pattern and switch between steady light and animated flashing.",
+      "description": "Croix LED sur une face, avec panneau acrylique et coque arrière en ABS. Plusieurs motifs lumineux au choix, avec éclairage fixe ou clignotant.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "60 × 60 × 2.5 cm"
+          "Dimensions du produit",
+          "60 × 60 × 2,5 cm"
         ],
         [
-          "Material",
-          "Acrylic panel + ABS back cover"
+          "Matériaux",
+          "Panneau acrylique + coque arrière en ABS"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
-          "Approx. 18 W"
+          "Puissance",
+          "Environ 18 W"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Control",
-          "Pull-cord switch"
+          "Commande",
+          "Interrupteur à tirette"
         ],
         [
-          "Operating modes",
-          "Steady on · layered animation flashing · full flashing · off"
+          "Modes de fonctionnement",
+          "Allumage fixe · animation par zones · clignotement complet · arrêt"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Wooden case"
+          "Emballage",
+          "Caisse en bois"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "63 × 64 × 7 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "3.5 kg"
+          "Poids par unité indiqué",
+          "3,5 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "1"
         ]
       ],
@@ -781,73 +781,73 @@
     },
     {
       "id": "neon-30",
-      "name": "Neon 30",
-      "type": "Neon",
+      "name": "Néon 30",
+      "type": "Néon",
       "category": "neon",
       "size": 30,
       "priceRmb": 168.0,
-      "description": "A neon cross on clear acrylic with a continuous light outline. A slim, single-sided display for indoor use.",
+      "description": "Croix néon sur acrylique transparent, avec un tracé lumineux continu. Affichage sur une face, pour un usage intérieur.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "30 × 30 × 1.4 cm"
+          "Dimensions du produit",
+          "30 × 30 × 1,4 cm"
         ],
         [
-          "Material",
-          "Clear acrylic + neon strip"
+          "Matériaux",
+          "Acrylique transparent + bande néon"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
-          "19.01 W"
+          "Puissance",
+          "19,01 W"
         ],
         [
-          "Current (supplier specification)",
+          "Intensité indiquée",
           "3 A"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Operating mode",
-          "Steady on"
+          "Mode de fonctionnement",
+          "Allumage fixe"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Standard carton"
+          "Emballage",
+          "Carton standard"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "34 × 33 × 6 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "0.85 kg"
+          "Poids par unité indiqué",
+          "0,85 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "5"
         ],
         [
-          "Outer carton size",
-          "35.2 × 30.2 × 34 cm"
+          "Dimensions du carton complet",
+          "35,2 × 30,2 × 34 cm"
         ],
         [
-          "Outer carton weight",
+          "Poids du carton complet",
           "6 kg"
         ]
       ],
@@ -861,77 +861,77 @@
         }
       ],
       "video": "assets/neon-30-demo.mp4",
-      "leadTime": "Approx. 7 working days for orders of 1–10 neon products."
+      "leadTime": "Délai indicatif : environ 7 jours ouvrés pour 1 à 10 produits néon."
     },
     {
       "id": "neon-48",
-      "name": "Neon 48",
-      "type": "Neon",
+      "name": "Néon 48",
+      "type": "Néon",
       "category": "neon",
       "size": 48,
       "priceRmb": 269.0,
-      "description": "A neon cross on clear acrylic with a continuous light outline. A slim, single-sided display for indoor use.",
+      "description": "Croix néon sur acrylique transparent, avec un tracé lumineux continu. Affichage sur une face, pour un usage intérieur.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "48 × 48 × 1.4 cm"
+          "Dimensions du produit",
+          "48 × 48 × 1,4 cm"
         ],
         [
-          "Material",
-          "Clear acrylic + neon strip"
+          "Matériaux",
+          "Acrylique transparent + bande néon"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
+          "Puissance",
           "35 W"
         ],
         [
-          "Current (supplier specification)",
+          "Intensité indiquée",
           "5 A"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Operating mode",
-          "Steady on"
+          "Mode de fonctionnement",
+          "Allumage fixe"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Standard carton"
+          "Emballage",
+          "Carton standard"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "52 × 49 × 7 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "1.7 kg"
+          "Poids par unité indiqué",
+          "1,7 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "5"
         ],
         [
-          "Outer carton size",
-          "52 × 29.2 × 51.1 cm"
+          "Dimensions du carton complet",
+          "52 × 29,2 × 51,1 cm"
         ],
         [
-          "Outer carton weight",
+          "Poids du carton complet",
           "9 kg"
         ]
       ],
@@ -945,69 +945,69 @@
         }
       ],
       "video": null,
-      "leadTime": "Approx. 7 working days for orders of 1–10 neon products."
+      "leadTime": "Délai indicatif : environ 7 jours ouvrés pour 1 à 10 produits néon."
     },
     {
       "id": "neon-60",
-      "name": "Neon 60",
-      "type": "Neon",
+      "name": "Néon 60",
+      "type": "Néon",
       "category": "neon",
       "size": 60,
       "priceRmb": 325.0,
-      "description": "A neon cross on clear acrylic with a continuous light outline. A slim, single-sided display for indoor use.",
+      "description": "Croix néon sur acrylique transparent, avec un tracé lumineux continu. Affichage sur une face, pour un usage intérieur.",
       "specs": [
         [
-          "Display",
-          "Single-sided · indoor use"
+          "Affichage",
+          "Une face · usage intérieur"
         ],
         [
-          "Product size",
-          "60 × 60 × 1.4 cm"
+          "Dimensions du produit",
+          "60 × 60 × 1,4 cm"
         ],
         [
-          "Material",
-          "Clear acrylic + neon strip"
+          "Matériaux",
+          "Acrylique transparent + bande néon"
         ],
         [
-          "Power supply",
-          "AC 100–240 V input · DC 12 V output"
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 12 V CC"
         ],
         [
-          "Power",
+          "Puissance",
           "47 W"
         ],
         [
-          "Current (supplier specification)",
+          "Intensité indiquée",
           "8 A"
         ],
         [
-          "Adapter cable",
-          "Approx. 150 cm"
+          "Câble de l’adaptateur",
+          "Environ 150 cm"
         ],
         [
-          "Operating mode",
-          "Steady on"
+          "Mode de fonctionnement",
+          "Allumage fixe"
         ]
       ],
       "packing": [
         [
-          "Included accessories",
-          "Power adapter, hanging chain and cotton thread"
+          "Accessoires inclus",
+          "Adaptateur secteur, chaîne de suspension et fil de coton"
         ],
         [
-          "Packaging",
-          "Wooden case"
+          "Emballage",
+          "Caisse en bois"
         ],
         [
-          "Single package size",
+          "Dimensions du colis unitaire",
           "63 × 64 × 7 cm"
         ],
         [
-          "Weight per unit (as listed)",
-          "3.5 kg"
+          "Poids par unité indiqué",
+          "3,5 kg"
         ],
         [
-          "Units per case",
+          "Unités par carton ou caisse",
           "1"
         ]
       ],
@@ -1021,7 +1021,7 @@
         }
       ],
       "video": null,
-      "leadTime": "Approx. 7 working days for orders of 1–10 neon products."
+      "leadTime": "Délai indicatif : environ 7 jours ouvrés pour 1 à 10 produits néon."
     }
   ]
 }
