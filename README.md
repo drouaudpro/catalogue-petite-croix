@@ -4,7 +4,7 @@ Mobile product catalogue for indoor LED and neon crosses.
 
 ## Catalogue
 
-9 distinct products, ordered by size, with the 3 neon products in their own final section. 49 photo variants with their exact SKU references. 5 product videos with the audio tracks removed.
+9 distinct products, with the 3 neon products in their own final section. 49 photo variants with their exact SKU references. 5 product videos with the audio tracks removed.
 
 Each product includes French specifications and packaging information. The interface opens directly on the products. Photos take priority on mobile; technical details and packaging are expandable.
 

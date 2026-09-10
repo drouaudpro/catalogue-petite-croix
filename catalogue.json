@@ -519,80 +519,6 @@
       "video": "assets/script-48-demo.mp4"
     },
     {
-      "id": "pcb-48",
-      "name": "Connectée 48",
-      "type": "LED Wi-Fi",
-      "category": "led",
-      "size": 48,
-      "description": "Croix LED verte programmable en Wi-Fi. Affichez l’heure, des textes et des animations personnalisées depuis un téléphone ou un ordinateur.",
-      "specs": [
-        [
-          "Affichage",
-          "Une face · usage intérieur"
-        ],
-        [
-          "Dimensions du produit",
-          "48 × 48 × 2,5 cm"
-        ],
-        [
-          "Matériaux",
-          "Panneau PCB + coque arrière en ABS"
-        ],
-        [
-          "Alimentation",
-          "Entrée 100–240 V CA · sortie 5 V CC"
-        ],
-        [
-          "Câble de l’adaptateur",
-          "Environ 120 cm"
-        ],
-        [
-          "Couleur des LED",
-          "Vert monochrome · SMD"
-        ],
-        [
-          "Commande",
-          "Wi-Fi depuis un téléphone ou un ordinateur"
-        ],
-        [
-          "Contenu affichable",
-          "Date, heure, textes, images, animations personnalisables, vidéos et GIF"
-        ],
-        [
-          "Fonctions en option",
-          "Affichage de la température et de l’humidité sur demande"
-        ]
-      ],
-      "packing": [
-        [
-          "Accessoires inclus",
-          "Adaptateur secteur et chaîne de suspension"
-        ],
-        [
-          "Emballage",
-          "Carton standard"
-        ],
-        [
-          "Dimensions du colis unitaire",
-          "52 × 49 × 7 cm"
-        ],
-        [
-          "Poids par unité indiqué",
-          "1,7 kg"
-        ]
-      ],
-      "variants": [
-        {
-          "sku": "VAL-PCB-48-001",
-          "image": "assets/VAL-PCB-48-001.webp",
-          "thumbnail": "assets/VAL-PCB-48-001-thumb.webp",
-          "width": 960,
-          "height": 960
-        }
-      ],
-      "video": "assets/pcb-48-demo.mp4"
-    },
-    {
       "id": "classic-60",
       "name": "Classique 60",
       "type": "LED classique",
@@ -703,6 +629,80 @@
         }
       ],
       "video": null
+    },
+    {
+      "id": "pcb-48",
+      "name": "Connectée 48",
+      "type": "LED Wi-Fi",
+      "category": "led",
+      "size": 48,
+      "description": "Croix LED verte programmable en Wi-Fi. Affichez l’heure, des textes et des animations personnalisées depuis un téléphone ou un ordinateur.",
+      "specs": [
+        [
+          "Affichage",
+          "Une face · usage intérieur"
+        ],
+        [
+          "Dimensions du produit",
+          "48 × 48 × 2,5 cm"
+        ],
+        [
+          "Matériaux",
+          "Panneau PCB + coque arrière en ABS"
+        ],
+        [
+          "Alimentation",
+          "Entrée 100–240 V CA · sortie 5 V CC"
+        ],
+        [
+          "Câble de l’adaptateur",
+          "Environ 120 cm"
+        ],
+        [
+          "Couleur des LED",
+          "Vert monochrome · SMD"
+        ],
+        [
+          "Commande",
+          "Wi-Fi depuis un téléphone ou un ordinateur"
+        ],
+        [
+          "Contenu affichable",
+          "Date, heure, textes, images, animations personnalisables, vidéos et GIF"
+        ],
+        [
+          "Fonctions en option",
+          "Affichage de la température et de l’humidité sur demande"
+        ]
+      ],
+      "packing": [
+        [
+          "Accessoires inclus",
+          "Adaptateur secteur et chaîne de suspension"
+        ],
+        [
+          "Emballage",
+          "Carton standard"
+        ],
+        [
+          "Dimensions du colis unitaire",
+          "52 × 49 × 7 cm"
+        ],
+        [
+          "Poids par unité indiqué",
+          "1,7 kg"
+        ]
+      ],
+      "variants": [
+        {
+          "sku": "VAL-PCB-48-001",
+          "image": "assets/VAL-PCB-48-001.webp",
+          "thumbnail": "assets/VAL-PCB-48-001-thumb.webp",
+          "width": 960,
+          "height": 960
+        }
+      ],
+      "video": "assets/pcb-48-demo.mp4"
     },
     {
       "id": "neon-30",

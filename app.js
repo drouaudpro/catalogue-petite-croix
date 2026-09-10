@@ -139,7 +139,7 @@
       let position=0;
       root.innerHTML=['led','neon'].map(category=>{
         const products=catalogue.products.filter(p=>p.category===category);
-        return `<section id="${category}" class="collection ${category==='neon'?'neon-collection':''}" aria-labelledby="heading-${category}"><div class="section-heading"><h2 id="heading-${category}">${category==='led'?'Croix LED':'Croix néon'}</h2><p>${products.length} produits · par taille</p></div><div class="products">${products.map(p=>productCard(p,position++)).join('')}</div></section>`;
+        return `<section id="${category}" class="collection ${category==='neon'?'neon-collection':''}" aria-labelledby="heading-${category}"><div class="section-heading"><h2 id="heading-${category}">${category==='led'?'Croix LED':'Croix néon'}</h2><p>${products.length} produits</p></div><div class="products">${products.map(p=>productCard(p,position++)).join('')}</div></section>`;
       }).join('');
       catalogue.products.forEach(bindProduct);
       viewer.querySelector('.close-viewer').addEventListener('click',()=>viewer.close());
